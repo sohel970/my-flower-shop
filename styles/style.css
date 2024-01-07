@@ -69,6 +69,18 @@ p {
     width:100%;
     vertical-align: middle;
 }
+/* support section */
+.support{
+    display: flex;
+    margin-top: 128px;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
+    padding: 86px 175px;
+background: rgba(39, 39, 39, 0.05);
+}
+
 /* feature section */
 .hot-deal{
     display: flex;
@@ -87,4 +99,20 @@ p {
 }
 .hotdeal-text *{
     margin-bottom: 20px;
+}
+/* insta section starts */
+.insta-text{
+    width: 75%;
+    max-width: 470px;
+    text-align: center;
+    align-items: center;
+
+}
+.insta-img{
+    display: flex;
+    justify-content: space-around;
+}
+.insta-img img{
+    width: 250px;
+    height: 300px;
 }
