@@ -6,6 +6,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
 h1 {
     color: #272727;
     font-size: 60px;
@@ -38,30 +42,24 @@ p {
     background-color: white;
     color: #E55473;
 }
-
-header {
-    background: rgba(229, 84, 115, 0.10);
-
-}
-
-.header-container {
-    display: flex;
+.container {
     width: 75%;
     max-width: 1440px;
-    align-items: center;
-    gap: 100px;
+    margin: 0 auto;
+    gap: 50px; 
     padding: 50px 240px 0px;
 }
-
-.header-container .header-text * {
+.banner{
+    display: flex;
+     align-items: center;
+  justify-content: space-between;
+}
+.banner .banner-text *{
     margin-bottom: 20px;
     max-width: 525px;
 }
 
-.header-container .header-img {
-    width: 600px;
+.banner .banner-img img{
+    width:100%;
     vertical-align: middle;
-}
-.hot-deal{
-
 }
