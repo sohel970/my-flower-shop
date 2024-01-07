@@ -44,7 +44,7 @@ header {
 
 }
 
-header .header-container {
+.header-container {
     display: flex;
     width: 75%;
     max-width: 1440px;
@@ -61,4 +61,7 @@ header .header-container {
 .header-container .header-img {
     width: 600px;
     vertical-align: middle;
+}
+.hot-deal{
+
 }
