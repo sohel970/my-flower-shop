@@ -17,7 +17,13 @@ h1 {
     font-weight: 800;
     line-height: normal;
 }
-
+h3{
+    color: #272727;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -62,4 +68,23 @@ p {
 .banner .banner-img img{
     width:100%;
     vertical-align: middle;
+}
+/* feature section */
+.hot-deal{
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+}
+.deal {
+    background: rgba(229, 84, 115, 0.10);
+    margin-top: 128px;
+}
+.hotdeal-text {
+      width: 75%;
+      max-width: 470px;
+      text-align: center;
+
+}
+.hotdeal-text *{
+    margin-bottom: 20px;
 }
